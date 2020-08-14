@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+.Header {
+    width: 100%;
+    padding: 0 40px;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #27334d;
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+}
+
+.Header section {
+    display: flex;
+}
+
+.Left a {
+    margin-right: 15px;
+}
+
+.Right a {
+    margin-left: 15px;
+}
+
+.JoinButton {
+    font-family: "Lato", sans-serif;
+    background: transparent !important;
+    color: #3bba9c !important;
+    border: 1px solid #3bba9c !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+}
+
+.JoinButton:hover {
+    background: #3bba9c !important;
+    color: #ffffff !important;
+}
+
+.Logo {
+    border-right: 1px solid rgba(255, 255, 255, .2);
+    padding-right: 20px;
+    margin: 0 10px 0 0;
+    font-size: 26px;
+    font-family: "Ubuntu", sans-serif;
+}

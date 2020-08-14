@@ -1,0 +1,80 @@
+/* .ListGroup {
+    background-color: rgba(0, 0, 0, .2);
+} */
+
+.CommandsTable tr {
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.CommandsTable tr:last-of-type {
+    border-bottom: none;
+}
+
+.ListGroup {
+    border-radius: 3px !important;
+    padding: 15px 10px !important;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.ListGroup .ListGroupItem {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.ListGroup .ListGroupItemActive {
+    background-color: #3bba9c;
+}
+
+.ListGroupItemText,
+.ListGroupItemText:hover {
+    text-decoration: none;
+    padding: 5px 15px;
+    width: 100%;
+    display: block;
+    margin: 0;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.ListGroupItemText:hover:not(.ListGroupItemActive) {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.CommandsTable {
+    color: #ffffff;
+}
+
+.CommandsTable td, th {
+    color: #ffffff;
+    border-top: none !important;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+/* .CommandList {
+
+} */
+
+.ListHeader {
+    background-color: #3e4961;
+    font-weight: 400;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.ListRow {
+    background-color: #222c45;
+    border-bottom: 1px solid #35435f;
+    padding: 10px;
+    flex: 1 1 0;
+}
+
+.ListRow:last-of-type {
+    border-bottom: none;
+}
+
+.Command {
+    color: #3bba9c;
+}
